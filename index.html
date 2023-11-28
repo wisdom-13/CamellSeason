@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>椿の季節</title>
+<link rel="shortcut icon" href="/common/img/icon.ico">
+<link rel="shortcut icon" href="img/icon.ico">
+<script src="/vendor/jquery/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="door">
+    <a href="/index.php"><img class="logo" src="/common/img/index/logo.png"><br></a>
+    <a href="/index.php"><img class="logo_hover" src="/common/img/index/logo_hover.png"><br></a>
+    <img class="text" src="/common/img/index/text.png">
+</div>
+
+
+</body>
+</html>
+
+<style>
+	* { margin:0 auto; padding:0; }
+	body { background:url('/common/img/index/back.png'); background-attachment:fixed; background-repeat:no-repeat; background-size:cover;}
+	html,body,a, a:hover { cursor: url(http://camellseason.com/cuser_block.cur), default !important; }
+
+	.door { width:100%; text-align:center; position: relative;}
+	.logo { z-index: 1; transition: 0.5s; }
+	.logo_hover { position: absolute; top: 0; left: 50%; margin-left: -184px; opacity: 0; transition: 0.5s;}
+	.text { margin-top: 20px; }
+	
+	.logo_hover:hover { opacity: 1; }
+</style>
+<script>
+	var height = ($(window).height()-550)/2+60;
+	$(".door").css("margin-top",height);
+</script>

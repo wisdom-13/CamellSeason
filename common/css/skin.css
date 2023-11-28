@@ -1,0 +1,30 @@
+#player,#player a{ color:#555; }
+#player{ background:rgba(0,0,0,0); background-position:bottom; }
+#player .mainImage{ background:url(http://camellseason.cafe24.com/common/img/index/basecinza.png); }
+
+#player #baseLeft{ width:93px; }
+#player #baseRight{ width:145px;}
+#player .button{  width:26px; }
+#player #play{ background:url(http://camellseason.cafe24.com/common/img/index/pausacinza.png); }
+#player #play,#player #pause{ left:26px; }
+#player #previous{ left:0px; }
+#player #next{ left:52px; }
+#player #title{ left:90px;  }
+#player #tooltip{ right:196px; }
+#player #timer{ right:120px;  }
+#player #list{ right:0px; }
+
+#player #seeker{ right:320px; }
+#player #seekerBase{ border-color:rgba(0,0,0,0);  }
+#player #seekerBuffered{ background-color:rgba(69,69,69,0.2); }
+#player #seekerSliderBase{ background-color:#555; }
+
+#player #volume{ width:65px; right:39px; }
+#player #volumeSlider{ width:9px; background:url(http://static.tumblr.com/jwavkzt/sjsmxjz9n/volume-branco.png); opacity: 0.5 }
+
+#playlist,#playlist .module,#playlist h3{ border-color:#333;}
+#playlist .module{  color:#000; background-color:#fff; }
+#playlist h3{ background:url(http://static.tumblr.com/egmcglb/FaGm6ymbg/barra.jpg); color:#fff; background-color:#2d2d2d;  }
+#playlist .even{background-color:#fff;}
+#playlist .odd{ background-color:#fff;}
+#playlist .focus{ background-color:#fff; color:#000;}
